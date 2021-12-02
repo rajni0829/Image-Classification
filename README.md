@@ -5,7 +5,6 @@ Dataset : https://drive.google.com/drive/folders/15LTdFZUq9sCwhQa99uQqlchxTaQAHL
 
 Packages Used : Numpy, PIL, MatplotLib, Pandas, Keras, Tensorflow,
 
-### Methodology   </br>
 we will be training a convolutional neural network (CNN) that can identify objects in images. We’ll be using a part of Caltech 101 dataset which has images in 101 categories. Most categories only have 50 images which typically isn’t enough
 for a neural network to learn to high accuracy. </br>
 Therefore, instead of building and training a CNN from scratch, we’ll use a pre-built and pre-trained model (VGG16) applying transfer learning.
@@ -19,8 +18,9 @@ Following is the general outline for transfer learning for object recognition:
 2. Freeze parameters (weights) in model’s lower convolutional layers
 3. Add custom classifier with several layers of trainable parameters to model
 4. Train classifier layers on training data available for task
-5. Fine-tune hyperparameters and unfreeze more layers as needed.
+5. Fine-tune hyperparameters and unfreeze more layers as needed. <br>
 
+### Methodology   </br>
 I. Dataset Preparation : The model has been trained and validated using the
 Caltech101 object dataset. It is a publicly available dataset and can be used to
 build classification models for objects belonging to 101 categories. The dataset has
@@ -42,7 +42,7 @@ used in the training process. ModelCheckpoint allows the best version of the mod
 to be saved automatically.
 
 ### References
-https://www.youtube.com/watch?v=LsdxvjLWkIY
+https://www.youtube.com/watch?v=LsdxvjLWkIY  <br>
 https://www.youtube.com/watch?v=lHM458ZsfkM   <br>
 https://medium.com/swlh/reverse-image-search-using-resnet-50-f305d735385a <br>
 https://stackoverflow.com/questions/20176361/open-tar-gz-archives-in-python  <br>

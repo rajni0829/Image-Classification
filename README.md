@@ -1,31 +1,18 @@
 # Vgg16-Transfer-Learning 
 
-Model: VGG16 of <br>
-Dataset : https://drive.google.com/drive/folders/15LTdFZUq9sCwhQa99uQqlchxTaQAHLqh?usp=sharing
+Model: VGG16 of convolutional neural network. <br>
+Dataset : https://drive.google.com/drive/folders/15LTdFZUq9sCwhQa99uQqlchxTaQAHLqh?usp=sharing <br>
+Packages Used : Numpy, PIL, MatplotLib, Pandas, Keras, Tensorflow <br>
 
-Packages Used : Numpy, PIL, MatplotLib, Pandas, Keras, Tensorflow
-
-
-we will be training a convolutional neural network (CNN) that can identify objects in images. We’ll be using a part of Caltech 101 dataset which has images in 101 categories. Most categories only have 50 images which typically isn’t enough
-for a neural network to learn to high accuracy. </br>
 Therefore, instead of building and training a CNN from scratch, we’ll use a pre-built and pre-trained model (VGG16) applying transfer learning.
 The approach starts with choosing a model which is pretrained on a large dataset,
-which in our case is VGG16. For object recognition with a CNN, we freeze the early
-convolutional layers of the network and only train the last few layers which makes a
-prediction.<br>
-
-Following is the general outline for transfer learning for object recognition:
-1. Load in a VGG16 CNN model trained on a large dataset.
-2. Freeze parameters (weights) in model’s lower convolutional layers.
-3. Add custom classifier with several layers of trainable parameters to model.
-4. Train classifier layers on training data available for task.
-5. Fine-tune hyperparameters and unfreeze more layers as needed. <br><br><br><br>
+which in our case is VGG16. <br><br><br>
 
 
 ### Methodology   </br>
 I. Dataset Preparation : Dataset has been mounted at drive.The dataset is divided in the ratio 60:40 in which the training set consists of 251 images and the Validation Set consists of 127 images.
 
-II. Image Pre-processing : VGG16 is used to train the model. Convolution based is built and top layer is removed during this process. Width and height of the Image is set equals to the default size used for VGG16.
+II. Image Pre-processing : VGG16 is used to train the model. Convolution based is built and For object recognition with a CNN, we freeze the early convolutional layers of the network and only train the last few layers which makes a prediction. Width and height of the Image is set equals to the default size used for VGG16. 
 
 III. Feature Extraction : Dataset is augmented using ImageDataGenerator. This phase involves modifying the VGG16 architecture by adding a GlobalAveragePooling layer and a dense output layer. After adding this layer, we add a final, dense layer, which has an activation function attached to it. This takes all of the feature maps that it has collected, and then gives us the prediction.
 
@@ -36,7 +23,7 @@ V. Making Prediction : Image and its path is passed through predict function of 
 ### Accuracy Of Model is 97.37672847509384 for the Given DataSet.
 
 #### Transfer Learning
-The model has been trained and validated using 60 percent of the 6 Classes of the Caltech101 object dataset. The remaining part was used to prove the theory of Transfer Learning.
+The Object is modelled using pre-built and pre-trained model (VGG16) and transfer learning is applied. The model has been trained and validated using 60 percent of the 6 Classes of the Caltech101 object dataset. The remaining part was used to test our accuracy using Transfer Learning.
 
 ### References
 https://www.youtube.com/watch?v=LsdxvjLWkIY  <br>

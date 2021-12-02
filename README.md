@@ -16,7 +16,7 @@ IV. Training Model : The model has been trained for 150 epochs with Adam optimiz
 
 V. Making Prediction : Image and its path is passed through predict function of model base by reshaping and Image with its prediction (labels) is displayed.
 
-### Accuracy Of Model is 97.37672847509384 for the Given DataSet.
+### Accuracy Of Model is 97.37672847509384 for the Given DataSet.  <br>
 
 #### Transfer Learning
 The Object is modelled using pre-built and pre-trained model (VGG16) and transfer learning is applied. The model has been trained and validated using 60 percent of the 6 Classes of the Caltech101 object dataset. The remaining part was used to test our accuracy using Transfer Learning.

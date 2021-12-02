@@ -8,7 +8,7 @@ Packages Used : Numpy, PIL, MatplotLib, Pandas, Keras, Tensorflow <br><br>
 ### Methodology   </br>
 I. **Dataset Preparation :** Dataset has been mounted at drive.The dataset is divided in the ratio 60:40 in which the Training Set consists of 251 images and the Validation Set consists of 127 images.
 
-II. **Image Pre-processing :** VGG16 is used to train the model. Convolution based is built and For object recognition with a CNN, we freeze the early convolutional layers of the network and only train the last few layers which makes a prediction. Width and height of the Image is set equals to the default size used for VGG16. 
+II. **Image Pre-processing :** VGG16 is used to train the model. Convolution based is built and for object recognition with a CNN, we freeze the early convolutional layers of the network and only train the last few layers which makes a prediction. Width and height of the Image is set equals to the default size used for VGG16. 
 
 III. **Feature Extraction :** Dataset is augmented using ImageDataGenerator. This phase involves modifying the VGG16 architecture by adding a GlobalAveragePooling layer and a dense output layer. After adding this layer, we add a final, dense layer, which has an activation function attached to it. This takes all of the feature maps that it has collected, and then gives us the prediction.
 

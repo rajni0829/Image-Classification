@@ -1,6 +1,6 @@
 # Vgg16-Transfer-Learning
 
-Model Used: VGG16 of 
+Model: VGG16 of 
 Dataset : https://drive.google.com/drive/folders/15LTdFZUq9sCwhQa99uQqlchxTaQAHLqh?usp=sharing
 
 Packages Used : Numpy, PIL, MatplotLib, Pandas, Keras, Tensorflow,

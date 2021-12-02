@@ -2,11 +2,7 @@
 
 Model: VGG16 of convolutional neural network. <br>
 Dataset : https://drive.google.com/drive/folders/15LTdFZUq9sCwhQa99uQqlchxTaQAHLqh?usp=sharing <br>
-Packages Used : Numpy, PIL, MatplotLib, Pandas, Keras, Tensorflow <br>
-
-Therefore, instead of building and training a CNN from scratch, we’ll use a pre-built and pre-trained model (VGG16) applying transfer learning.
-The approach starts with choosing a model which is pretrained on a large dataset,
-which in our case is VGG16. <br><br><br>
+Packages Used : Numpy, PIL, MatplotLib, Pandas, Keras, Tensorflow <br><br>
 
 
 ### Methodology   </br>

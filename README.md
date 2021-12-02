@@ -43,9 +43,9 @@ to be saved automatically.
 
 ### References
 
-https://medium.com/swlh/reverse-image-search-using-resnet-50-f305d735385a
-https://towardsdatascience.com/a-comprehensive-hands-on-guide-to-transfer-learning-with-real-world-applications-in-deep-learning-212bf3b2f27a
-https://stackoverflow.com/questions/50953127/in-sklearn-preprocessing-module-i-get-valueerror-found-array-with-0-features
-https://github.com/nachi-hebbar/Transfer-Learning-Keras/blob/main/TransferLearning.ipynb
-https://www.youtube.com/watch?v=lHM458ZsfkM
-https://stackoverflow.com/questions/20176361/open-tar-gz-archives-in-python
+https://medium.com/swlh/reverse-image-search-using-resnet-50-f305d735385a <br>
+https://towardsdatascience.com/a-comprehensive-hands-on-guide-to-transfer-learning-with-real-world-applications-in-deep-learning-212bf3b2f27a  <br>
+https://stackoverflow.com/questions/50953127/in-sklearn-preprocessing-module-i-get-valueerror-found-array-with-0-features  <br>
+https://github.com/nachi-hebbar/Transfer-Learning-Keras/blob/main/TransferLearning.ipynb  <br>
+https://www.youtube.com/watch?v=lHM458ZsfkM   <br>
+https://stackoverflow.com/questions/20176361/open-tar-gz-archives-in-python  <br>

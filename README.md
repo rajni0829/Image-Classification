@@ -31,4 +31,3 @@ https://github.com/nachi-hebbar/Transfer-Learning-Keras/blob/main/TransferLearni
 https://stackoverflow.com/questions/50953127/in-sklearn-preprocessing-module-i-get-valueerror-found-array-with-0-features  <br>
 https://towardsdatascience.com/a-comprehensive-hands-on-guide-to-transfer-learning-with-real-world-applications-in-deep-learning-212bf3b2f27a  <br>
  
-Thanks.

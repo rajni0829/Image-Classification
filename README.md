@@ -4,7 +4,7 @@ Model: VGG16 of convolutional neural network. <br>
 Dataset : https://drive.google.com/drive/folders/15LTdFZUq9sCwhQa99uQqlchxTaQAHLqh?usp=sharing <br>
 Packages Used : Numpy, PIL, MatplotLib, Pandas, Keras, Tensorflow <br><br>
 
-
+ 
 ### Methodology   </br>
 I. **Dataset Preparation :** Dataset has been mounted at drive.The dataset is divided in the ratio 60:40 in which the Training Set consists of 251 images and the Validation Set consists of 127 images.
 
